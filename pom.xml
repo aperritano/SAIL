@@ -196,8 +196,8 @@
           </webResources>
           <packagingExcludes>
             WEB-INF/classes/sample/**,
-            WEB-INF/classes/wise.properties,
-            <!--  WEB-INF/classes/wise.properties, -->
+            <!--WEB-INF/classes/wise.properties,-->
+              <!--WEB-INF/classes/wise.properties,-->
             WEB-INF/classes/wise_development.properties
             curriculum/**,
             studentuploads/**
