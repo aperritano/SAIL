@@ -82,9 +82,9 @@
   </developers>
 
   <scm>
-    <url>https://github.com/WISE-Community/WISE/</url>
-    <connection>scm:git:git://github.com/WISE-Community/WISE.git</connection>
-    <developerConnection>scm:git:git://github.com/WISE-Community/WISE.git</developerConnection>
+    <url>https://github.com/aperritano/SAIL/</url>
+    <connection>scm:git:git://github.com/aperritano/SAIL.git</connection>
+    <developerConnection>scm:git:git://github.com/aperritano/SAIL.git</developerConnection>
   </scm>
 
   <issueManagement>
@@ -197,6 +197,8 @@
           <packagingExcludes>
             WEB-INF/classes/sample/**,
             WEB-INF/classes/wise.properties,
+            <!--  WEB-INF/classes/wise.properties, -->
+            WEB-INF/classes/wise_development.properties
             curriculum/**,
             studentuploads/**
           </packagingExcludes>
