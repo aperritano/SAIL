@@ -11,12 +11,12 @@
       <app-mobile-menu></app-mobile-menu>
     </mat-sidenav>
     <mat-sidenav-content fxLayout="column">
-      <app-announcement *ngIf="showHeaderAndFooter() && hasAnnouncement"
-                        message="Welcome to our new site!"
-                        action="Learn More"
-                        (callback)="showAnnouncementDetails()"
-                        (dismiss)="dismissAnnouncement()"></app-announcement>
-      <app-header class="dark-theme"></app-header>
+      <!--<app-announcement *ngIf="showHeaderAndFooter() && hasAnnouncement"-->
+                        <!--message="Welcome to our new site!"-->
+                        <!--action="Learn More"-->
+                        <!--(callback)="showAnnouncementDetails()"-->
+                        <!--(dismiss)="dismissAnnouncement()"></app-announcement>-->
+      <app-header class="default-theme"></app-header>
       <div fxFlex>
         <router-outlet></router-outlet>
       </div>

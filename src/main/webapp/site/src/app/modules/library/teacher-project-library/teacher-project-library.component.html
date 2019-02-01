@@ -9,14 +9,14 @@
                    aria-label="Select unit library view"
                    backgroundColor="primary"
                    mat-stretch-tabs>
-      <mat-tab label="WISE Tested ({{numberOfOfficialProjectsVisible}})">
-        <div class="notice" i18n>Suggested unit sequences developed and tested by the WISE team</div>
+      <mat-tab label="SAIL Tested ({{numberOfOfficialProjectsVisible}})">
+        <div class="notice" i18n>Suggested unit sequences developed and tested by the SAIL team</div>
         <div class="content-block">
           <app-official-library (update)="updateNumberOfOfficialProjectsVisible($event)"></app-official-library>
         </div>
       </mat-tab>
       <mat-tab label="Community Built ({{numberOfCommunityProjectsVisible}})">
-        <div class="notice" i18n>Units designed and shared by WISE community members</div>
+        <div class="notice" i18n>Units designed and shared by SAIL community members</div>
         <div class="content-block">
           <app-community-library (update)="updateNumberOfCommunityProjectsVisible($event)"></app-community-library>
         </div>

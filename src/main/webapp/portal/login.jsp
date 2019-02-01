@@ -33,7 +33,7 @@ function validateLoginForm() {
 <div id="pageWrapper" style="min-width:550px; background:transparent;">
 
 			<div class="infoContent loginContent">
-				<div class="panelHeader"><spring:message code="signIn"/></div>
+				<div class="panelHeader"><spring:message code="signIn"/>ihkdlfjdlfjd</div>
 				<div>
 					<form id="home" method="post" action="${contextPath}/j_acegi_security_check" onsubmit="return validateLoginForm()" autocomplete="off">
 						<div id="signinForm">
