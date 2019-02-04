@@ -9,14 +9,18 @@
   width: 100%;
   z-index: 2;
   padding: 0;
+  color: white;
 }
 
 .header__content {
   min-height: 80px;
   font-size: 14px;
+  background-color: #3776CC;
+  color: white;
 }
 
 .header__logo {
+  color: white;
   width: 200px;
   max-width: 248px;
   margin-top: 1.5%;
@@ -27,7 +31,7 @@
 
   img {
     vertical-align: middle;
-    max-width: 100%;
+    max-width: 50%;
     height: auto;
     //image-rendering: -moz-crisp-edges;         /* Firefox */
     //image-rendering:   -o-crisp-edges;         /* Opera */

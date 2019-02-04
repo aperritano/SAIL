@@ -1,4 +1,4 @@
-<header fxLayout="row" class="content__header">
+<header fxLayout="row" class="content__header" style="background-color: #112B3E">
   <h1 class="accent"
       fxLayoutAlign="center center"
       ngClass="mat-display-1"
@@ -6,7 +6,7 @@
     <mat-icon>home</mat-icon><span i18n>Teacher Home</span>
   </h1>
 </header>
-<section>
+<section style="color: white">
   <mat-tab-group [(selectedIndex)]="selectedTabIndex" #tabs>
     <mat-tab label="Class Schedule">
       <app-teacher-run-list></app-teacher-run-list>
