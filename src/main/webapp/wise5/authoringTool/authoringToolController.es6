@@ -105,7 +105,7 @@ class AuthoringToolController {
       },
     };
 
-    this.logoPath = this.ProjectService.getThemePath() + '/images/WISE-logo-ffffff.svg';
+    this.logoPath = this.ProjectService.getThemePath() + '/images/SAIL-logo-ffffff.svg';
     this.processUI();
 
     // listen for state change events and close the menu
