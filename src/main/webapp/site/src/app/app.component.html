@@ -3,13 +3,15 @@
 </ng-template>
 
 <ng-template #default>
-  <mat-sidenav-container fullscreen [class.has-announcement]="hasAnnouncement" class="app-background">
+  <mat-sidenav-container fullscreen [class.has-announcement]="hasAnnouncement" 
+                         class="app-background">
     <mat-sidenav #mobileMenu
                  class="primary-bg"
                  [(opened)]="showMobileMenu"
                  position="end">
       <app-mobile-menu></app-mobile-menu>
     </mat-sidenav>
+<<<<<<< HEAD
     <mat-sidenav-content fxLayout="column">
       <!--<app-announcement *ngIf="showHeaderAndFooter() && hasAnnouncement"-->
                         <!--message="Welcome to our new site!"-->
@@ -19,6 +21,22 @@
       <app-header></app-header>
       <!--<app-header class="default-theme"></app-header>-->
       <div fxFlex style="background-color: #112B3E">
+=======
+    <mat-sidenav-content fxLayout="column" 
+                         track-scroll 
+                         (yPositionChange)="onYPositionChange($event)">
+      <app-announcement *ngIf="showHeaderAndFooter() && hasAnnouncement"
+                        class="sticky"
+                        i18n-message
+                        message="Welcome to our new site!"
+                        i18n-action
+                        action="Learn More"
+                        (callback)="showAnnouncementDetails()"
+                        (dismiss)="dismissAnnouncement()"></app-announcement>
+      <app-header class="dark-theme sticky" 
+                  [ngClass]="{ 'invisible': scroll }"></app-header>
+      <div fxFlex>
+>>>>>>> b87b5073253b2091950bfe83775efb8adadd0ca9
         <router-outlet></router-outlet>
       </div>
       <app-footer></app-footer>
