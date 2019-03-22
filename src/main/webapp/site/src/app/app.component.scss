@@ -1,12 +1,14 @@
-<<<<<<< HEAD
+@import
+'~style/abstracts/variables',
+'~style/abstracts/functions',
+'~style/abstracts/mixins';
+
+
+
 .body {
   background-color: #112B3E;
-=======
-@import
-  '~style/abstracts/variables',
-  '~style/abstracts/functions',
-  '~style/abstracts/mixins';
-  
+}
+
 app-header, app-announcement {
   &.sticky {
     top: 0;
@@ -15,7 +17,6 @@ app-header, app-announcement {
 
 app-announcement {
   z-index: 3;
->>>>>>> b87b5073253b2091950bfe83775efb8adadd0ca9
 }
 
 app-header {
